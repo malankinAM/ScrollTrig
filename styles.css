@@ -1,0 +1,78 @@
+html,
+body {
+  background: rgb(32,46,46);
+  background: linear-gradient(90deg, rgba(32,46,46,1) 0%, rgba(163,170,170,1) 57%, rgba(50,54,54,1) 99%, rgba(247,251,250,1) 100%);
+  font-family: "Grifinito L";
+  margin: 0;
+  padding: 0;
+}
+
+.smooth-scroller {
+  overflow: hidden;
+}
+
+.hero-scroller {
+  height: 250vh;
+  overflow: hidden;
+}
+
+.section {
+  position: relative;
+  display: flex;
+  min-height: 100vh;
+  padding: 50px;
+  justify-content: center;
+}
+
+.copy {
+  background: rgb(32,46,46);
+background: linear-gradient(90deg, rgba(32,46,46,1) 0%, rgba(163,170,170,1) 57%, rgba(50,54,54,1) 99%, rgba(247,251,250,1) 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-wrapper {
+  max-width: 1400px;
+}
+
+.content {
+  width: 100%;
+  max-width: 840px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+h1 {
+  font-size: 190px;
+  font-weight: 400;
+  line-height: 150px;
+  margin: 0px;
+  text-transform: uppercase;
+  color: rgb(250, 248, 245);
+}
+
+.image-wrapper {
+  position: relative;
+  overflow: hidden;
+ 
+  padding-top: 50%;
+}
+
+.image {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  width: 80%;
+  height: 80%;
+  object-fit: cover;
+  border-radius: 15px;
+}
+
+p {
+  font-size: 4em;
+  line-height: 1.2em;
+  color:rgb(17, 17, 17);
+}
